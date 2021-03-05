@@ -1,0 +1,28 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "richfit": {
+	"users": [
+		{"id": "1", "name": "ningyu", "displayName": "Tony Joseph"},
+		{"id": "2", "name": "jialing", "displayName": "贾玲"},
+		{"id": "3", "name": "shenteng", "displayName": "沈腾"},
+		{"id": "4", "name": "shayi", "displayName": "沙溢"},
+		{"id": "5", "name": "qiaoshan", "displayName": "乔衫"}
+	],
+	"groups": [
+		{"id": "1", "name": "compute", "displayName": "计算组"},
+		{"id": "2", "name": "storage", "displayName": "存储组"},
+		{"id": "3", "name": "network", "displayName": "网络组"}
+	]
+  }
+}
