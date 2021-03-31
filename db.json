@@ -1,8 +1,8 @@
 {
   "users": [
-	{"id": "ningyu", "name": "Tony Joseph", "password": "111111"},
-	{"id": "jialing", "name": "贾玲", "password": "222222"},
-	{"id": "shenteng", "name": "沈腾", "password": "333333"}
+	{"id": "ningyu", "name": "TonyJoseph", "password": "111111", "groupId": "compute"},
+	{"id": "jialing", "name": "贾玲", "password": "222222", "groupId": "storage"},
+	{"id": "shenteng", "name": "沈腾", "password": "333333", "groupId": "network"}
   ],
   "groups": [
 	{"id": "compute", "name": "计算组", "members": ["ningyu"]},
