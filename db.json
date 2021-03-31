@@ -1,26 +1,12 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "users": [
-	{"id": "1", "name": "ningyu", "displayName": "Tony Joseph"},
-	{"id": "2", "name": "jialing", "displayName": "贾玲"},
-	{"id": "3", "name": "shenteng", "displayName": "沈腾"},
-	{"id": "4", "name": "shayi", "displayName": "沙溢"},
-	{"id": "5", "name": "qiaoshan", "displayName": "乔衫"}
+	{"id": "ningyu", "name": "Tony Joseph", "password": "111111"},
+	{"id": "jialing", "name": "贾玲", "password": "222222"},
+	{"id": "shenteng", "name": "沈腾", "password": "333333"}
   ],
   "groups": [
-	{"id": "1", "name": "compute", "displayName": "计算组"},
-	{"id": "2", "name": "storage", "displayName": "存储组"},
-	{"id": "3", "name": "network", "displayName": "网络组"}
+	{"id": "compute", "name": "计算组", members: ["ningyu"]},
+	{"id": "storage", "name": "存储组", members: ["jialing"]},
+	{"id": "network", "name": "网络组", members: ["shenteng"]}
   ]
 }
