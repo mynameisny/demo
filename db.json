@@ -5,8 +5,8 @@
 	{"id": "shenteng", "name": "沈腾", "password": "333333"}
   ],
   "groups": [
-	{"id": "compute", "name": "计算组", members: ["ningyu"]},
-	{"id": "storage", "name": "存储组", members: ["jialing"]},
-	{"id": "network", "name": "网络组", members: ["shenteng"]}
+	{"id": "compute", "name": "计算组", "members": ["ningyu"]},
+	{"id": "storage", "name": "存储组", "members": ["jialing"]},
+	{"id": "network", "name": "网络组", "members": ["shenteng"]}
   ]
 }
